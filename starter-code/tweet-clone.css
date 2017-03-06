@@ -1,0 +1,88 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background:rgb(244, 248, 249);
+  font-size: 20px;
+}
+.tweetbox {
+  padding: 15px;
+  border-radius: 6px;
+  background:rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  color:rgb(0, 0, 0);
+  line-height: 30px;
+
+}
+.imguser {
+  width: 20%;
+  float: left;
+}
+
+.user {
+  float: left;
+  width: 80%;
+  font-size: 26px;
+  font-weight: bold;
+}
+.user p {
+  margin-top: 0px;
+}
+.accountlogo {
+  width: 12px;
+
+}
+.user img {
+  position: relative;
+  top: 3px;
+}
+.validated {
+  width: 30px;
+}
+.follow {
+  position: absolute;
+  top: 25px;
+  right:25px;
+}
+.username {
+  color: rgb(0, 0, 0);
+}
+.useraccount {
+  color:rgb(104, 109, 129);
+  font-weight: normal;
+  font-size: 20px;
+}
+.userdate {
+  color: rgb(101, 116, 127);
+}
+.bottomtext {
+  color: rgb(105, 120, 130);
+}
+.followbutton {
+  color: rgb(85, 172, 238);
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 6px;
+  padding: 0px 10px 10px;
+  background-color: #fff;
+  box-shadow: none;
+  width: 150px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.followbutton img {
+  position: relative;
+  top:8px;
+}
+.contenttweet {
+  clear: both;
+}
+.bottomtext ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.bottomtext ul li {
+  display: inline;
+  padding-right: 40px;
+}
+.bottomtext ul li img {
+  position: relative;
+  top: 3px;
+}
